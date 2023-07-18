@@ -23,7 +23,7 @@
     width: 120px;
 }
 .logo{
-    background-image: url(amazon_logo.png);
+    background-image: url('.images/amazon_logo.png');
     background-size: cover;
     height: 70px;
     width: 100%;
@@ -153,7 +153,6 @@
     align-items: flex-end;
 }
 
-
 /* Navbar line 2 */
 .panel{
     height: 40px;
@@ -187,21 +186,8 @@
     justify-content: space-evenly;
     margin: 8px;
 }
-/* 
-Hero Section */
 
-/* .hero{
-    background-image: url("./amazon/hero1.jpg"); 
-    background-image: url("./amazon/hero2.jpg");
-    /* background-image: url("./amazon/hero3.jpg");
-    background-image: url("./amazon/hero4.jpg"); 
-    background-image: url("./amazon/hero5.jpg"); */
-    /* height: 300px;
-    width: 1212px;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-} */ */
+/* Hero Section */
 
 .body1{
     display: grid;
@@ -212,43 +198,28 @@ Hero Section */
     height: 300px;
     width: 1210px;
     display: flex;
-    /* overflow: auto; */
-    /* scroll-snap-type: initial; */
     animation: slides 20s infinite;
     background-size: cover;
 }
 
 @keyframes slides {
     20%{
-        background-image: url("hero1.jpg");
+        background-image: url(".images/hero1.jpg");
     }
     40%{
-        background-image: url("hero2.jpg");
+        background-image: url(".images/hero2.jpg");
     }
     60%{
-        background-image: url("hero3.jpg");
+        background-image: url(".images/hero3.jpg");
     }
     80%{
-        background-image: url("hero4.jpg");
+        background-image: url(".images/hero4.jpg");
     }
     100%{
-        background-image: url("hero5.jpg");
+        background-image: url(".images/hero5.jpg");
     }
     
 }
-
-
-/* .slider{
-    height: 500px;
-    width: 1212px;
-    background-size: cover;
-} */
-
-/* .slider .slide{
-    scroll-snap-align:start ;
-
-} */ 
-
 
 .white_l
 {
@@ -269,7 +240,6 @@ Hero Section */
     color: #007185;
     margin-left: 2px;
 }
-
 
 /* Content section */
 .content{
@@ -317,7 +287,7 @@ Hero Section */
     padding-left: 3px;
 }
 .bg_img2{
-    background-image: url(Book.jpg);
+    background-image: url('.images/Book.jpg');
     width: 330px;
     height: 220px;
     margin-left: 20px;
@@ -508,7 +478,7 @@ a{
 }
 
 .logo1{
-    background-image: url(amazon_logo.png);
+    background-image: url('.images/amazon_logo.png');
     background-size: cover;
     height: 50px;
     width: 100px;
